@@ -19,7 +19,7 @@
         <div class:show={isOpen} class="collapse navbar-collapse" id="navbarNav">
             <ul class="navbar-nav">
                 <li class="nav-item">
-                    <a class:active={$page.url.pathname === '/'} class="nav-link" aria-current="page" href="/">Home</aclass:active>
+                    <a class:active={$page.url.pathname === '/'} class="nav-link" aria-current="page" href="/">Home</a>
                 </li>
                 <li class="nav-item">
                     <a class:active={$page.url.pathname === '/about'} class="nav-link" href="/about">About</a>
